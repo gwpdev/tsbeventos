@@ -17,3 +17,74 @@ Version: 1.0.0
 */
 
 @import url("../tsbeventos/style.css");
+
+/***LOGO*****/
+#logo {max-height: 107%; padding-bottom: 7px;}
+/***********M E N U - topo*********/
+.et_header_style_left #et-top-navigation nav > ul > li > a, .et_header_style_split #et-top-navigation nav > ul > li > a {background-color: #e74c3c; padding: 10px;}
+/****************M E N U - FIXO********************/
+.et_header_style_left .et-fixed-header #et-top-navigation nav > ul > li > a, .et_header_style_split .et-fixed-header #et-top-navigation nav > ul > li > a {padding: 10px;}
+/******HEADER - FULLWIDTH********/
+/*.et_pb_fullwidth_header_0.et_pb_fullwidth_header .header-content h1 {color: #e74c3c!important;}*/
+.et_pb_fullwidth_header .et_pb_fullwidth_header_container.center .header-content {width: 100%; max-width: 100%;}
+
+/********CONTACT FORM STYLE*********/
+#wpcf7-f270-p68-o1 > form > p, #wpcf7-f270-p185-o1 > form > p { 
+	width: 48%;
+	display: inline-block;}
+#wpcf7-f270-p68-o1 > form > p:nth-child(8), #wpcf7-f270-p185-o1 > form > p:nth-child(8) {width: 100%; display: block;}
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 input[type="tel"],
+.wpcf7 textarea
+{
+ background-color: #eee;
+ border: none;
+ width: 100% !important;
+ -moz-border-radius: 0 !important;
+ -webkit-border-radius: 0 !important;
+ border-radius: 0 !important;
+ font-size: 14px;
+ color: #999 !important;
+ padding: 16px !important;
+ -moz-box-sizing: border-box;
+ -webkit-box-sizing: border-box;
+ box-sizing: border-box;
+}
+.wpcf7-captchar {
+ background-color: #fff !important;
+ border: 1px solid !important;
+ padding: 12px !important;
+}
+.wpcf7-submit {
+ background-origin: padding-box;
+ background-size: auto;
+ background: transparent !important;
+ color: #3a2719;
+ border: 2px solid;
+ font-size:20px;
+ padding: 6px 20px;
+ line-height:1.7em;
+ border-radius: 2px;
+ -webkit-border-radius: 2px;
+ -moz-border-radius: 2px;
+ -khtml-border-radius: 2px;
+ height: 50px ! important;
+ width: 102px;
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+ -moz-transition: all 0.2s;
+ -webkit-transition: all 0.2s;
+ transition: all 0.2s;
+}
+.wpcf7-submit:hover {
+ background: #3a2719 !important;
+ color:#eee;
+ border: 2px solid transparent;
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+ -moz-transition: all 0.2s;
+ -webkit-transition: all 0.2s;
+ transition: all 0.2s;
+}
+/*********F I M CONTACT FORM*******************/
